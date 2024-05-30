@@ -1,0 +1,19 @@
+SELECT * FROM mercado_eletronico.cliente;
+SELECT nome, email FROM mercado_eletronico.cliente;
+
+DESCRIBE cliente;
+
+INSERT INTO `cliente` (`nome`,`cpf`,`email`, `telefone`, `nascimento` ) 
+VALUES ("Maria","222 000 111 77","maria@unifap", "4000 5000", "1995-04-01");4
+
+DELETE FROM nome-da-tabela WHERE nome-da-coluna=texto;
+
+DELETE FROM mercado_eletronico.cliente WHERE id = 2;
+Filtrar resultados 
+SELECT nomes_colunas FROM nome_tabela WHERE ID = Valor;
+
+Aqui, o comando UPDATE entra em ação. Vamos ver 
+como usá-lo para alterar o valor de um campo 
+dentro de um registro:
+UPDATE mercado_eletronico.fornecedores SET cnpj = 01442503685 WHERE id = 1;
+
